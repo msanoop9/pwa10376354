@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+table#seats-table, #seats-table tr td{
+	border:10px solid #000;
+	padding: 20px;
+	margin:50px;
+	cursor:pointer;
+	border-radius:12px;
+	}
+#seats-table tr th{
+	padding: 10px;
+	matgin-right:30px;
+	cursor:auto;
+	}
+.selected{
+	background: #277304;
+	color:#fff;
+	}
+.booked{
+	background: #DE0606;
+	color:#fff;
+	}
+.free{
+	background: #fff;
+	color:#000;
+	}
+ul.movie-list li{
+	list-style:none;
+	display:block;
+	padding:10px;
+	background:#eee;
+	border-bottom:#aaa;
+	}
+	ul.movie-list {
+		padding:0;
+	}
+	ul.movie-list > li {
+    list-style: none;
+    display: block;
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid;
+}
+ul.movie-list li span{
+	display:block;
+	font-weight:bold;
+	float:left;
+	width:250px;
+	}
+ul.movie-list li ul li{
+	display: inline-block;
+	margin: 0 2px;
+	border:1px solid #333;
+	border-radius: 5px;
+	}
+	ul.movie-list li ul li :hover{
+		background-color: #1aff1a;
+		border:1px solid #333;
+		border-radius: 5px;
+		}
+	ul.movie-list li span {
+		padding-top:10px;
+	}
+
+	.ui-widget-header {
+	    border: 1px solid #dddddd;
+	    background: #fff;
+	    color: #333333;
+	    font-weight: bold;
+	}
